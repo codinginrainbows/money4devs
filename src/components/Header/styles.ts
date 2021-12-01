@@ -33,7 +33,10 @@ export const Content = styled.div`
 
     &:hover {
       filter: brightness(0.9);
-      transform: scale(1.04);
+    }
+
+    &:active {
+      transform: scale(0.96);
     }
   }
 `;

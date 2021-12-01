@@ -1,4 +1,4 @@
-import { BalanceCard, Card, Container } from "./styles";
+import { Card, Container } from "./styles";
 
 import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
@@ -25,7 +25,7 @@ export function Summary() {
           <strong>R$ 9.210,00</strong>
         </div>
       </Card>
-      <BalanceCard>
+      <Card className="balanceCard">
         <header>
           <p>Balance</p>
           <img src={balanceImg} alt="Entrada" />
@@ -33,7 +33,7 @@ export function Summary() {
         <div>
           <strong>R$ 6.165,00</strong>
         </div>
-      </BalanceCard>
+      </Card>
     </Container>
   )
 }
