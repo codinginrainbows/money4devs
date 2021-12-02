@@ -13,7 +13,7 @@ export const Card = styled.div`
   padding: 1.5rem 2rem;
 
   border-radius: 5px;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.2);
 
   header {
     color: var(--text-title);
@@ -38,11 +38,11 @@ export const Card = styled.div`
     }
   }
 
-  transition: transform 0.6s;
+  transition: transform 1s;
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   // alternative styling for special card
