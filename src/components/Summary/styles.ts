@@ -38,11 +38,11 @@ export const Card = styled.div`
     }
   }
 
-  transition: transform 1s;
+  transition: transform 0.4s;
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: translateY(-10px);
   }
 
   // alternative styling for special card
@@ -61,5 +61,4 @@ export const Card = styled.div`
       }
     }
   }
-  // end of alternative styling for special card
 `;
