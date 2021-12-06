@@ -6,6 +6,7 @@ import { Container, TransactionsButtonContainer, ButtonBox } from './styles';
 import closeButton from '../../assets/close.svg';
 import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
+import { api } from '../../services/api';
 
 
 
@@ -20,15 +21,17 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
   const [type, setType] = useState('deposit');
   const [category, setCategory] = useState('');
 
-  function handleNewTransaction(event: FormEvent) {
+  function handleCrateNewTransaction(event: FormEvent) {
     event.preventDefault();
 
-    console.log({
+    const data = {
       title,
       value,
       type,
       category
-    });
+    };
+
+    api.post('/transactions', data)
   }
 
   return (
@@ -47,7 +50,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
         <img src={closeButton} alt="Close Modal" />
       </button>
 
-      <Container onSubmit={handleNewTransaction}>
+      <Container onSubmit={handleCrateNewTransaction}>
         <h2>Cadastrar Transação</h2>
 
         <input
