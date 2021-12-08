@@ -23,15 +23,24 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
   const [type, setType] = useState('deposit');
   const [category, setCategory] = useState('');
 
-  function handleCrateNewTransaction(event: FormEvent) {
+  async function handleCrateNewTransaction(event: FormEvent) {
     event.preventDefault();
 
-    createTransaction({
+    await createTransaction({
       title,
       amount,
       category,
       type,
     })
+
+    // getting input fields clean/empty
+    setTitle('');
+    setAmount(0);
+    setType('deposit');
+    setCategory('');
+
+    // closing modal after inserting a transaction in the table
+    onRequestClose();
   }
 
   return (
