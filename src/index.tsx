@@ -13,20 +13,29 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Delivery App',
+          title: 'App Hamburgueria',
           type: 'deposit',
           category: 'Software',
-          amount: 9000,
+          amount: 6500,
           createdAt: new Date('2021-12-06 10:00:00'),
 
         },
         {
           id: 2,
-          title: 'Rent',
+          title: 'Aluguel',
           type: 'withdraw',
-          category: 'House',
-          amount: 1200,
+          category: 'Casa',
+          amount: 1750,
           createdAt: new Date('2021-12-07 11:00:00'),
+
+        },
+        {
+          id: 3,
+          title: 'Rancho',
+          type: 'withdraw',
+          category: 'Alimentação',
+          amount: 426,
+          createdAt: new Date('2021-12-08 11:00:00'),
 
         }
       ]

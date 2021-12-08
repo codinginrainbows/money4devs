@@ -8,6 +8,15 @@ export const Container = styled.div`
     width: 100%;
     border-spacing: 0 0.5rem;
 
+    tbody tr {
+      transition: transform 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateX(10px);
+      }
+    }
+
     th {
       color: var(--text-body);
       font-weight: 400;
