@@ -15,8 +15,14 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  img {
+  div {
+    display: flex;
     cursor: pointer;
+
+    h2 {
+      color: #fff;
+      margin-left: 16px;
+    }
   }
 
   button {
@@ -33,6 +39,7 @@ export const Content = styled.div`
 
     &:hover {
       filter: brightness(0.9);
+      transform: scale(1.02);
     }
 
     &:active {
