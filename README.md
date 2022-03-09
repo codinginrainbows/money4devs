@@ -34,16 +34,14 @@ Finance application built to control your expenses.
 
 ## :paintbrush: Color Scheme
 
-background: `#dfe7fd` <br>
-shape: `#FFFFFF` <br>
+Background: `#dfe7fd` <br>
+Shape: `#FFFFFF` <br>
 
-text-title: `#363F5F` <br>
-text-body: `#969CB2` <br>
+Title text: `#363F5F` <br>
+Body text: `#969CB2` <br>
 
-blue: `#94B3FD` <br>
-green-light: `#b9fbc0` <br>
-green: `#33CC95` <br>
-red: `#FF5677` <br>
+Blue header: `#94B3FD` <br>
+Green button: `#b9fbc0` <br>
 
 ## :gear: Setup
 
