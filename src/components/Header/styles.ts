@@ -22,6 +22,7 @@ export const Content = styled.div`
     h2 {
       color: #fff;
       margin-left: 16px;
+      text-shadow: 2px 2px var(--text-title);
     }
   }
 
@@ -29,17 +30,17 @@ export const Content = styled.div`
     background: var(--blue-light);
     font-weight: 600;
     font-size: 1rem;
-    color: #fff;
+    color: var(--text-title);
     padding: 0 2rem;
     height: 3rem;
     border: 0;
     border-radius: 0.25rem;
 
-    transition: transform 0.1s, filter 0.1s;
+    transition: transform 0.2s, filter 0.1s;
 
     &:hover {
-      filter: brightness(0.9);
-      transform: scale(1.02);
+      filter: brightness(0.95);
+      transform: scale(1.04);
     }
 
     &:active {

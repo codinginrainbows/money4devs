@@ -50,14 +50,14 @@ export const Card = styled.div`
     background: var(--blue-light);
 
     strong {
-      color: #fff;
+      color: var(--text-title);
     }
 
     header {
     color: #fff;
 
       p {
-        color: #fff;
+        color: var(--text-title);
       }
     }
   }

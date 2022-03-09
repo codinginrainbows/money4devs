@@ -15,7 +15,7 @@ export const Container = styled.form`
     padding: 1.5rem;
     height: 4rem;
     border-radius: 0.25rem;
-    background: #e7e9ee;
+    background: #f8f9fa;
     color: var(--text-title);
 
     border: 1px solid #d7d7d7;
@@ -54,7 +54,7 @@ export const Container = styled.form`
 
     margin-top: 1.5rem;
 
-    color: #fff;
+    color: var(--text-title);
     font-size: 1rem;
     font-weight: 600;
 
