@@ -18,6 +18,12 @@ export const Content = styled.div`
   div {
     display: flex;
     cursor: pointer;
+    align-items: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
 
     h2 {
       color: #fff;
