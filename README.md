@@ -4,7 +4,8 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=BLUE&style=for-the-badge"/>
 </p>
 
-Finance application built to control your expenses.
+Financial application built aiming a efficient management of user's expenses and consequently provide a more healthy control of his hard-earned money.
+
 ## :file_folder: Index
 * [First Look](#camera-first-look)
 * [Features](#hammer-features)
