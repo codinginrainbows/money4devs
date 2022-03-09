@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center"> money4devs </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=BLUE&style=for-the-badge"/>
+</p>
 
-## Available Scripts
+Finnance application built to control your expenses
+## :file_folder: Index
+* [First Look](#camera-first-look)
+* [Features](#hammer-features)
+* [Technologies](#rocket-technologies)
+* [Color Scheme](#paintbrush-color-scheme)
+* [Setup](#gear-setup)
+* [Developpers](#man_technologist-developers)
 
-In the project directory, you can run:
+## :camera: First Look
+![money4devs](https://user-images.githubusercontent.com/82886646/157505959-5ff54e59-2750-48fb-8b33-6e25dbd9b9eb.gif)
 
-### `yarn start`
+## :hammer: Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] `New Transaction`: Button New Transaction opens modal.
+- [x] `Modal`: Modal data adds a transaction to the main table.
+- [x] `Summary`: Summary makes a balance out of the values on the table.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :rocket: Technologies
 
-### `yarn test`
+  ✔️ HTML5 <br>
+  ✔️ CSS3 <br>
+  ✔️ Styled Components<br>
+  ✔️ Polished<br>
+  ✔️ Typescript <br>
+  ✔️ React.js <br>
+  ✔️ Axios <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :paintbrush: Color Scheme
 
-### `yarn build`
+- background: #dfe7fd;
+- shape: #FFFFFF;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- text-title: #363F5F;
+- text-body: #969CB2;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- blue: #94B3FD;
+- green-light: #b9fbc0;
+- green: #33CC95;
+- red: #FF5677;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :gear: Setup
 
-### `yarn eject`
+1. Clone this repo `git clone https://github.com/codinginrainbows/money4devs`
+2. Access folder `cd money4devs`
+3. Install all dependencies `yarn` 
+4. Run `yarn start`
+5. Open `http://localhost:3000` in your preferred browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :man_technologist: Developers
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| [<img src="https://avatars.githubusercontent.com/u/82886646?v=4" width=115><br><sub>Gabriel Garcia</sub>](https://github.com/codinginrainbows)
+| :---: |
