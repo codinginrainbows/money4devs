@@ -33,7 +33,7 @@ export const Content = styled.div`
   }
 
   button {
-    background: var(--blue-light);
+    background: var(--green-light);
     font-weight: 600;
     font-size: 1rem;
     color: var(--text-title);

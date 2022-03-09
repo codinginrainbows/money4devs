@@ -47,7 +47,7 @@ export const Card = styled.div`
 
   // alternative styling for special card
   &.balanceCard {
-    background: var(--blue-light);
+    background: var(--green-light);
 
     strong {
       color: var(--text-title);

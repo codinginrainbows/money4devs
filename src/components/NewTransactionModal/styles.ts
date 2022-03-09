@@ -50,7 +50,7 @@ export const Container = styled.form`
     height: 4rem;
     border: 0;
     border-radius: 0.25rem;
-    background: var(--blue-light);
+    background: var(--green-light);
 
     margin-top: 1.5rem;
 
