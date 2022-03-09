@@ -24,11 +24,11 @@ Finance application built to control your expenses.
 
 ## :rocket: Technologies
 
-  ✔️ HTML5 <br>
-  ✔️ CSS3 <br>
+  ✔️ HTML 5 <br>
+  ✔️ CSS 3 <br>
   ✔️ Styled Components<br>
   ✔️ Polished<br>
-  ✔️ Typescript <br>
+  ✔️ TypeScript <br>
   ✔️ React.js <br>
   ✔️ Axios <br>
 
