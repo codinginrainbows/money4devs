@@ -35,15 +35,15 @@ Finnance application built to control your expenses
 ## :paintbrush: Color Scheme
 
 background: `#dfe7fd` <br>
-shape: #FFFFFF; <br>
+shape: `#FFFFFF` <br>
 
 text-title: `#363F5F` <br>
-- text-body: #969CB2; <br>
+text-body: `#969CB2` <br>
 
-- blue: #94B3FD; <br>
-- green-light: #b9fbc0; <br>
-- green: #33CC95; <br>
-- red: #FF5677; <br>
+blue: `#94B3FD` <br>
+green-light: `#b9fbc0` <br>
+green: `#33CC95` <br>
+red: `#FF5677` <br>
 
 ## :gear: Setup
 
