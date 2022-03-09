@@ -4,7 +4,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=FINISHED&color=BLUE&style=for-the-badge"/>
 </p>
 
-Finnance application built to control your expenses
+Finance application built to control your expenses.
 ## :file_folder: Index
 * [First Look](#camera-first-look)
 * [Features](#hammer-features)
