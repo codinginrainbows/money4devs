@@ -7,14 +7,14 @@
 Financial application built aiming a efficient management of user's expenses and consequently provide a more healthy control of his hard-earned money.
 
 ## :file_folder: Index
-* [First Look](#camera-first-look)
+* [First Look](#camera-preview)
 * [Features](#hammer-features)
 * [Technologies](#rocket-technologies)
 * [Color Scheme](#paintbrush-color-scheme)
 * [Setup](#gear-setup)
 * [Developpers](#man_technologist-developers)
 
-## :camera: First Look
+## :camera: Preview
 ![money4devs](https://user-images.githubusercontent.com/82886646/157505959-5ff54e59-2750-48fb-8b33-6e25dbd9b9eb.gif)
 
 ## :hammer: Features
