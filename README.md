@@ -7,7 +7,7 @@
 Financial application built aiming a efficient management of user's expenses and consequently provide a more healthy control of his hard-earned money.
 
 ## :file_folder: Index
-* [First Look](#camera-preview)
+* [Preview](#camera-preview)
 * [Features](#hammer-features)
 * [Technologies](#rocket-technologies)
 * [Color Scheme](#paintbrush-color-scheme)
