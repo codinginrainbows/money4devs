@@ -16,13 +16,13 @@ export const Card = styled.div`
   box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.2);
 
   header {
-    color: var(--text-title);
+    color: var(--textTitle);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     p {
-      color: var(--text-title);
+      color: var(--textTitle);
     }
   }
 
@@ -34,7 +34,7 @@ export const Card = styled.div`
       font-weight: 500;
       letter-spacing: 1px;
       line-height: 3rem;
-      color: var(--text-title);
+      color: var(--textTitle);
     }
   }
 
@@ -47,17 +47,17 @@ export const Card = styled.div`
 
   // alternative styling for special card
   &.balanceCard {
-    background: var(--green-light);
+    background: var(--greenLight);
 
     strong {
-      color: var(--text-title);
+      color: var(--textTitle);
     }
 
     header {
     color: #fff;
 
       p {
-        color: var(--text-title);
+        color: var(--textTitle);
       }
     }
   }

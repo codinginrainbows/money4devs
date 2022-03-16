@@ -5,7 +5,7 @@ export const Container = styled.form`
   padding: 1rem 0;
 
   h2 {
-    color: var(--text-title);
+    color: var(--textTitle);
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -15,16 +15,16 @@ export const Container = styled.form`
     padding: 1.5rem;
     height: 4rem;
     border-radius: 0.25rem;
-    background: #f8f9fa;
-    color: var(--text-title);
+    background: var(--shape);
+    color: var(--textTitle);
 
-    border: 1px solid #d7d7d7;
+    border: 1px solid var(--shape);
 
     font-weight: 400;
     font-size: 1rem;
 
     &::placeholder {
-      color: var(--text-body);
+      color: var(--textBody);
     }
 
     & + input {
@@ -50,11 +50,11 @@ export const Container = styled.form`
     height: 4rem;
     border: 0;
     border-radius: 0.25rem;
-    background: var(--green-light);
+    background: var(--greenLight);
 
     margin-top: 1.5rem;
 
-    color: var(--text-title);
+    color: var(--textTitle);
     font-size: 1rem;
     font-weight: 600;
 
@@ -79,7 +79,7 @@ export const TransactionsButtonContainer = styled.div`
 
     span {
       font-size: 1rem;
-      color: var(--text-title);
+      color: var(--textTitle);
     }
 `;
 

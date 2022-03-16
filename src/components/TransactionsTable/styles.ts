@@ -18,7 +18,7 @@ export const Container = styled.div`
     }
 
     th {
-      color: var(--text-body);
+      color: var(--textBody);
       font-weight: 400;
       padding: 1rem 2rem;
       text-align: left;
@@ -28,12 +28,12 @@ export const Container = styled.div`
     td {
       background: var(--shape);
       padding: 1rem 2rem;
-      color: var(--text-body);
+      color: var(--textBody);
       /* border-top: 1px solid #999;
       border-bottom: 1px solid #999; */
 
       &:first-child {
-        color: var(--text-title);
+        color: var(--textTitle);
         border-radius: 0.25rem 0 0 0.25rem;
         //border-left: 2px solid #000;
       }
