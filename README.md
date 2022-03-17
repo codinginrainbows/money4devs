@@ -37,14 +37,19 @@ Financial application built aiming a efficient management of user's expenses and
 
 ## :paintbrush: Color Scheme
 
-Background: `#dfe7fd` <br>
-Shape: `#FFFFFF` <br>
+### Light
+Background: `#DfE7FD` <br>
+Header: `#94B3FD` <br>
+Cards & Table: `#FFFFFF` <br>
+Summary Balance: `#B9FBC0` <br>
+Text: `#363F5F` <br>
 
-Title text: `#363F5F` <br>
-Body text: `#969CB2` <br>
-
-Blue header: `#94B3FD` <br>
-Green button: `#b9fbc0` <br>
+### Dark
+Background: `#403F4C` <br>
+Header: `#293241` <br>
+Cards & Table: `#66707A` <br>
+Summary Balance: `#FF5C8A` <br>
+Text: `#FAFAFA` <br>
 
 ## :gear: Setup
 
