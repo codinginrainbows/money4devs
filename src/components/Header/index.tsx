@@ -42,8 +42,6 @@ export function Header({ onHandleOpenNewTransactionModal, toggleTheme }: HeaderP
             height={30}
             width={56}
 
-            borderRadius={16}
-
             handleDiameter={26}
 
           />
