@@ -17,8 +17,11 @@ Financial application built aiming a efficient management of user's expenses and
 ## :camera: Preview
 ![money4devs](https://user-images.githubusercontent.com/82886646/157505959-5ff54e59-2750-48fb-8b33-6e25dbd9b9eb.gif)
 
+![money4devsDarkMode](https://user-images.githubusercontent.com/82886646/158739578-95ccb74d-b05f-4d97-b671-7b41497843ca.gif)
+
 ## :hammer: Features
 
+- [x] `Theme Switcher`: Dark Mode implemented via Context API.
 - [x] `New Transaction`: Button New Transaction opens modal.
 - [x] `Modal`: Modal data adds a transaction to the main table.
 - [x] `Summary`: Summary makes a balance out of the values on the table.
