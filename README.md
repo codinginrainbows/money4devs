@@ -16,7 +16,7 @@ Financial application built aiming a efficient management of user's expenses and
 
 ## :camera: Preview
 ![money4devs](https://user-images.githubusercontent.com/82886646/157505959-5ff54e59-2750-48fb-8b33-6e25dbd9b9eb.gif)
-![money4devsDarkMode](https://user-images.githubusercontent.com/82886646/158739578-95ccb74d-b05f-4d97-b671-7b41497843ca.gif)
+![money4devsDarkMode2](https://user-images.githubusercontent.com/82886646/158860979-b8687f4a-a489-42de-9f3e-2bd3cdb02f5c.gif)
 
 ## :hammer: Features
 
