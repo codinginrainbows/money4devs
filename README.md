@@ -53,11 +53,11 @@ Text: `#FAFAFA` <br>
 
 ## :gear: Setup
 
-Clone this repo `git clone https://github.com/codinginrainbows/money4devs`
-Access folder `cd money4devs`
-Install all dependencies `yarn` 
-Run `yarn start`
-Open `http://localhost:3000` in your preferred browser.
+1. Clone this repo `git clone https://github.com/codinginrainbows/money4devs` 
+2. Access folder `cd money4devs` 
+3. Install all dependencies `yarn` 
+4. Run `yarn start` 
+5. Open `http://localhost:3000` in your preferred browser. 
 
 ## :man_technologist: Developers
 
