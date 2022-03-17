@@ -16,9 +16,11 @@ Financial application built aiming a efficient management of user's expenses and
 
 ## :camera: Preview
 ![money4devs](https://user-images.githubusercontent.com/82886646/157505959-5ff54e59-2750-48fb-8b33-6e25dbd9b9eb.gif)
+![money4devsDarkMode2](https://user-images.githubusercontent.com/82886646/158860979-b8687f4a-a489-42de-9f3e-2bd3cdb02f5c.gif)
 
 ## :hammer: Features
 
+- [x] `Theme Switcher`: Dark Mode implemented via Context API.
 - [x] `New Transaction`: Button New Transaction opens modal.
 - [x] `Modal`: Modal data adds a transaction to the main table.
 - [x] `Summary`: Summary makes a balance out of the values on the table.
@@ -35,22 +37,27 @@ Financial application built aiming a efficient management of user's expenses and
 
 ## :paintbrush: Color Scheme
 
-Background: `#dfe7fd` <br>
-Shape: `#FFFFFF` <br>
+### Light
+Background: `#DfE7FD` <br>
+Header: `#94B3FD` <br>
+Cards & Table: `#FFFFFF` <br>
+Summary Balance: `#B9FBC0` <br>
+Text: `#363F5F` <br>
 
-Title text: `#363F5F` <br>
-Body text: `#969CB2` <br>
-
-Blue header: `#94B3FD` <br>
-Green button: `#b9fbc0` <br>
+### Dark
+Background: `#403F4C` <br>
+Header: `#293241` <br>
+Cards & Table: `#66707A` <br>
+Summary Balance: `#FF5C8A` <br>
+Text: `#FAFAFA` <br>
 
 ## :gear: Setup
 
-1. Clone this repo `git clone https://github.com/codinginrainbows/money4devs`
-2. Access folder `cd money4devs`
+1. Clone this repo `git clone https://github.com/codinginrainbows/money4devs` 
+2. Access folder `cd money4devs` 
 3. Install all dependencies `yarn` 
-4. Run `yarn start`
-5. Open `http://localhost:3000` in your preferred browser.
+4. Run `yarn start` 
+5. Open `http://localhost:3000` in your preferred browser. 
 
 ## :man_technologist: Developers
 
